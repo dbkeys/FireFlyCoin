@@ -66,7 +66,7 @@ public:
         assert(hashGenesisBlock == uint256("0x00000c4782d13f093d5135f3579b1b9e1bcb14b1763f46c9db269de4e0248c49"));
         assert(genesis.hashMerkleRoot == uint256("0x4674a0af6bf5e5cc97108ddb9aefa6513ba6f25474943b0a97caed7107872796"));
 
-        vSeeds.push_back(CDNSSeedData("", ""));
+        vSeeds.push_back(CDNSSeedData("fireflycoin.cc", "dnsseed.fireflycoin.cc"));
 
 
         base58Prefixes[PUBKEY_ADDRESS] = 36;
